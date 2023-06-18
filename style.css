@@ -1,0 +1,77 @@
+nav{
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    background-color: peru;
+    z-index: 2;
+    justify-content: space-between;
+}
+.submerge{
+    width: 50%;
+}
+.details{
+    font-size: 20px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section1{
+    display: flex;
+    position: relative;
+    top: 4rem;
+}
+.discript{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.discript div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.img{
+    width: 50%;
+}
+.section2{
+    display: flex;
+    position: relative;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    top: 4rem;
+    padding: 4%;
+}
+.section2 button{
+    border: none;
+    padding: 1%;
+    font-size: 110%;
+    color: black;
+    margin: 2%;
+    border-radius: 5px;
+}
+footer{
+    position: relative;
+    top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+}
+footer div{
+    text-align: center;
+    color: wheat;
+}
+body{
+    margin: 0%;
+}
+.logos{ 
+    justify-content: center;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
